@@ -1,4 +1,4 @@
-```puml { src="Ejercicios_UML.plantuml" }
+
 @startuml
 Object Circulo
 Circulo : Color = "Gris"
@@ -18,4 +18,4 @@ Elipse : Color = "Amarillo"
 Elipse : EjeMayor = 1
 Elipse : EjeMenor = 1
 @enduml
-```
+
