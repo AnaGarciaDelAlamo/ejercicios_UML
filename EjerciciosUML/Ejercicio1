@@ -1,0 +1,25 @@
+{% uml src="ejerciciosUML.plantuml" %}
+@startuml
+class c1:Circulo{
+Color = "Negro"
+Diametro =1
+}
+
+class r1:Rectangulo{
+Longitud = 3
+Anchura = 1
+Color = "Naranja"
+}
+
+class c2:Cuadrado{
+Longitud  =1.5
+Color = "Azul
+}
+
+class e1:Elipse{
+Color = "Amarillo"
+Eje Mayor = 3
+Eje menor = 1
+}
+@enduml
+{% enduml %}
