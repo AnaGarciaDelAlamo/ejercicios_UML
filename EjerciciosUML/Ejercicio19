@@ -16,7 +16,7 @@ Estado = enum Estado
 Temática = enum Temática
 }
 
-Restauración "0..*" - "1..*" Objeto : Se ha realizado sobre >
+Restauración "0..*" -- "1..*" Objeto : Se ha realizado sobre >
 
 class Colección{
 Nombre = Texto
@@ -39,7 +39,7 @@ Nombre = Texto
 
 Objeto "0..*" - "1" Ubicación : Se ubica en >
 
-Colección "0..1" - "1..*" Objeto : Pertrenece A <
+Colección "0..1" -- "1..*" Objeto : Pertrenece A <
 
 class ColeccionTemporal extends Colección{
 Fecha de inicio = Tiempo

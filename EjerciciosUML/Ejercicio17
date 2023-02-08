@@ -49,10 +49,10 @@ Fecha real de devolución = Tiempo
 Biblioteca "1" o-- "1..*" Planta
 Libro "1" o-- "1..*" Ejemplar
 
-Planta "1" - "1..*" Temática : Alberga > 
+Planta "1" -- "1..*" Temática : Alberga > 
 Libro "0..*" - "1..*" Temática : Pertenece A >
-Préstamo "0..*" - "0.1" Lector : Hecho A >
-Préstamo "0..*" - "0.1" Empleado : Hecho A >
+Préstamo "0..*" -- "0.1" Lector : Hecho A >
+Préstamo "0..*" -- "0.1" Empleado : Hecho A >
 Préstamo "0..*" - "1" Ejemplar : Involucra >
 
 
